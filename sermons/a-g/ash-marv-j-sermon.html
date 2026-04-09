@@ -4,6 +4,24 @@
         <title>Ash,Marv-J Sermons</title>
         <link rel="stylesheet" type="text/css" href="../../style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .talk-link {
+                display: flex;
+                align-items: center;   /* vertically centers image + text */
+                gap: 10px;             /* space between image and text */
+                text-decoration: none;  /* removes underline */
+                color: black;           /* or any color you want */
+                background-color: whitesmoke;
+            }
+
+            .talk-link img {
+                height: 200px;
+            }
+            .talk-link:hover {
+            color: #555;
+            text-decoration: underline;
+        }
+        </style>
     </head>
     <body class="sermon">
         <a href="../../index.html">Home Page</a>
@@ -11,11 +29,20 @@
         <a href="https://www.churchofjesuschrist.org/study/general-conference/speakers/marvin-j-ashton?lang=eng">churchofjesuschrist.org</a>
         <a href="https://speeches.byu.edu/speakers/marvin-j-ashton/">BYU SPEECHES</a>
         <div>
-            <a href="https://speeches.byu.edu/talks/marvin-j-ashton/murmur-not/">Murmur Not -- December 9, 1969 -- BYU Speeches -- Assistant to the Twelve</a>
-            <br>
-            <a href="https://www.churchofjesuschrist.org/study/general-conference/1971/04/love-of-the-right?lang=eng">Love of the Right -- April 1971 -- General Conference -- Assistant to the Twelve</a>
-            <br>
-            <a href="https://www.churchofjesuschrist.org/study/general-conference/1971/10/you-can-get-there-from-here?lang=eng">You Can Get There from Here -- October 1971 -- General Conference -- Assistant to the Twelve</a>
+            <a href="https://speeches.byu.edu/talks/marvin-j-ashton/murmur-not/" class="talk-link" style="background-color: whitesmoke;">
+                <img src="../../images/a-g/ashton,marvin-j.jpeg">
+                <span>Murmur Not -- December 9, 1969 -- BYU Speeches -- Assistant to the Twelve</span>
+            </a>
+            <hr>
+            <a href="https://www.churchofjesuschrist.org/study/general-conference/1971/04/love-of-the-right?lang=eng" class="talk-link">
+                <img src="../../images/a-g/ashton,marvin-j.jpeg">
+                <span>Love of the Right -- April 1971 -- General Conference -- Assistant to the Twelve</span>
+            </a>
+            <hr>
+            <a href="https://www.churchofjesuschrist.org/study/general-conference/1971/10/you-can-get-there-from-here?lang=eng" class="talk-link">
+                <img src="../../images/a-g/ashton,marvin-j.jpeg">
+                <span>You Can Get There from Here -- October 1971 -- General Conference -- Assistant to the Twelve</span>
+            </a>
             <br>
             <div class="apostle">
             <a href="https://www.churchofjesuschrist.org/study/general-conference/1972/04/what-is-your-destination?lang=eng">What Is Your Destination? -- April 1972 -- General Conference -- Apostle</a>
